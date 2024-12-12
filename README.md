@@ -1,1 +1,1 @@
-[1](https://neschetnyi.github.io/AutoComplete/)
+https://neschetnyi.github.io/AutoComplete/

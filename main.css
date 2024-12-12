@@ -1,0 +1,121 @@
+body {
+  background: #4b4949;
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+}
+
+.bodyWrapper {
+  width: 500px;
+  background-color: aquamarine;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+
+.wrapper {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  min-height: 300px;
+}
+
+h1 {
+  padding-top: 10px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #295c48;
+}
+
+.search {
+  position: relative;
+}
+
+.search__input {
+  width: 370px;
+  height: 25px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 50;
+  margin-bottom: 10px;
+}
+
+.search__expandMenu {
+  position: absolute;
+  width: 378px;
+  background-color: #217e59;
+  padding: 0;
+  margin: 0;
+}
+
+.search__expandMenu-display--none {
+  display: none;
+}
+
+.menuUl {
+  padding: 0;
+  margin: 0;
+}
+
+.expandMenuUlLi {
+  font-size: 1rem;
+  padding: 3px;
+  padding-left: 10px;
+  list-style-type: none;
+  color: white;
+  border-bottom: transparent solid 1px;
+}
+
+.expandMenuUlLi:hover {
+  background-color: aqua;
+  color: #217e59;
+  border-bottom: white solid 1px;
+}
+
+.search__results {
+  display: flex;
+  align-items: baseline;
+}
+
+.results_element {
+  font-size: 1rem;
+  padding: 10px;
+  list-style-type: none;
+  color: #295c48;
+  border-radius: 3px;
+  border: #217e59 solid 1px;
+  margin-bottom: 10px;
+}
+
+.element_wraper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.element_right {
+  padding-top: 15px;
+}
+
+.element_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: #217e59 solid 2px;
+  border-radius: 5px;
+  width: 25px;
+  height: 25px;
+  color: #217e59;
+  background-color: white;
+  transition: all;
+  transition-duration: 500ms;
+}
+
+.element_button:hover {
+  color: #ffffff;
+  background-color: #da511b;
+  border: white solid 2px;
+}
